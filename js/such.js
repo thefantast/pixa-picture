@@ -1,4 +1,4 @@
-
+console.log('hallo');
 document.querySelector('suchbutton').addEventListener('click', function(){
   
     let myInput =  document.querySelector('suchinput').value
@@ -13,3 +13,4 @@ document.querySelector('suchbutton').addEventListener('click', function(){
     });
   
   })
+
