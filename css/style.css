@@ -294,6 +294,30 @@ span {
   color: #71c55d;
 }
 
+
+/*--------------------------------------------------------------
+# Bildergallerie
+--------------------------------------------------------------*/
+#bildergalerie{
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bildergalerie div{
+  margin: 20px;
+}
+
+#bildergalerie div img{
+  max-width: 500px;
+  border: solid black 2px;
+  border-radius: 2%;
+  box-shadow: 2px 2px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
