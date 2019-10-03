@@ -109,4 +109,11 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 293bab493cd8bb4a8d1e0a23e33164db3f363bc4
 });
