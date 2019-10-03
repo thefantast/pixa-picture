@@ -1365,7 +1365,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
         form{
             position: absolute;
-            top: 20rem;
+            top: 6rem;
             left: 20rem;
             font-family: sans-serif;
             border: 2px solid grey;
@@ -1387,7 +1387,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
         button{
             font-family: sans-serif;
-            width: 18rem;
+            width: 23rem;
             height: 3rem;
             background-color: lightgrey;
             border: none;
