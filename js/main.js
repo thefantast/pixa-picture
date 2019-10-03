@@ -109,42 +109,6 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  // Modal video
-  new ModalVideo('.js-modal-btn', {channel: 'youtube'});
 
-  // Init Owl Carousel
-  $('.owl-carousel').owlCarousel({
-    items: 4,
-    autoplay: true,
-    loop: true,
-    margin: 30,
-    dots: true,
-    responsiveClass: true,
-    responsive: {
-
-      320: { items: 1},
-      480: { items: 2},
-      600: { items: 2},
-      767: { items: 3},
-      768: { items: 3},
-      992: { items: 4}
-    }
-  });
-
-// custom code
-document.querySelector('suchbutton').addEventListener('click', function(){
-  
-  let myInput =  document.querySelector('suchinput').value
-
-
-  fetch(`https://api.unsplash.com/search/photos/?client_id=6b99c44af3b5ecf26972b41b9e4651ec31dfc4a8c13be8a8ca48eb34d8c4f8da&query=${myInput}`)
-  .then(response => {
-    response.json().then(json => {
-      console.log(json);
-      
-    });
-  });
-
-})
 
 });
