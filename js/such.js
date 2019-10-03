@@ -7,6 +7,23 @@ document.getElementById('suchbutton').addEventListener('click', function (e) {
     .then(response => {
       response.json().then(json => {
         console.log(json);
+
+        for (let i = 0; i < 10; i++){
+         
+          console.log("Test");
+          const mytemplate = `
+          <img src="${json.results[i].urls.small}" >
+          `
+          const myDiv = document.createElement('div');
+
+          myDiv.innerHTML = mytemplate;
+
+          
+          document.getElementById('bildergalerie').appendChild(myDiv);
+
+
+
+        }
         
       });
     });
