@@ -1362,3 +1362,39 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: 0;
   color: #71c55d;
 }
+
+        form{
+            position: absolute;
+            top: 20rem;
+            left: 20rem;
+            font-family: sans-serif;
+            border: 2px solid grey;
+
+        }
+
+        form input{
+            width: 10rem;
+            height: 3rem;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        label{
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        button{
+            font-family: sans-serif;
+            width: 18rem;
+            height: 3rem;
+            background-color: lightgrey;
+            border: none;
+            cursor: pointer;
+            box-shadow:1px 1px 5px #333333;
+            position: absolute;
+            top: 6rem;
+            right: 0rem;
+            font-size: 1.3rem;
+        }
